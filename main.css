@@ -92,6 +92,7 @@
     opacity: 1;
 }
 
-.icons{
-    color:navy;
-}
+
+.fab, .fas {
+    color: black;
+  }
