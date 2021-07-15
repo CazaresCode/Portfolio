@@ -2,15 +2,24 @@
 .right-side{
     height: 100vh;
 }
+
+.left-side{
+    margin-right: 0%;
+}
+
  .navbarMain{
      background: white;
  }
 
 #signatureAC{
     width: auto;
-    height: 10em;
+    height: 40%;
+    padding-bottom: none;
 }
 
+#about{
+    text-align: center;
+}
 
 /*START*/
 .row > div {
@@ -83,4 +92,6 @@
     opacity: 1;
 }
 
-/*END*/
+.icons{
+    color:navy;
+}
