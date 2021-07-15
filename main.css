@@ -1,6 +1,17 @@
+header{
+    margin-top: 3.5em;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 575px) {
+    header{
+        margin-top:-2em;
+    }
+}
+
 .left-side,
 .right-side{
-    height: 100vh;
+    height: auto;
 }
 
 .left-side{
@@ -10,14 +21,6 @@
  .navbarMain{
      background: white;
  }
-/* 
- @media only screen and(max-width: 575px) {
-#headShot{
-    width: 50%;
-    height: 50%;
-}     
- } */
- 
 
 #signatureAC{
     width: 100%;
