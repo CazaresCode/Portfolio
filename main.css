@@ -1,6 +1,11 @@
 header{
     margin-top: 3.5em;
     margin-bottom: 50px;
+    height: 100vh;
+}
+ 
+h1{
+    font-weight: bolder;
 }
 
 @media only screen and (max-width: 575px) {
@@ -23,8 +28,7 @@ header{
  }
 
 #signatureAC{
-    width: 100%;
-    /* padding-bottom: none; */
+    width: 50%;
 }
 
 #about{
