@@ -1,46 +1,48 @@
-header{
+header {
     margin-top: 3.5em;
     margin-bottom: 50px;
     height: 100vh;
 }
- 
-h1{
+
+h1 {
     font-weight: bolder;
 }
 
 @media only screen and (max-width: 575px) {
-    header{
-        margin-top:-2em;
+    header {
+        margin-top: -2em;
     }
 }
 
 .left-side,
-.right-side{
+.right-side {
     height: auto;
 }
 
-.left-side{
+.left-side {
     margin-right: 0%;
 }
 
- .navbarMain{
-     background: white;
- }
+.navbarMain {
+    background: white;
+}
 
-#signatureAC{
+#signatureAC {
     width: 50%;
 }
 
-#about{
+#about {
     text-align: center;
 }
 
-/*START*/
-.row > div {
-     margin-bottom: 1em;
-    }
 
-.col1{
+/*START*/
+
+.row>div {
+    margin-bottom: 1em;
+}
+
+.col1 {
     background-image: url(/assets/img1.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -49,7 +51,7 @@ h1{
     border-radius: 4px;
 }
 
-.col5{
+.col5 {
     background-image: url(/assets/img5.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -58,7 +60,7 @@ h1{
     border-radius: 4px;
 }
 
-.col2{
+.col2 {
     background-image: url(/assets/img2.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -67,7 +69,7 @@ h1{
     border-radius: 4px;
 }
 
-.col3{
+.col3 {
     background-image: url(/assets/img3.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -76,7 +78,7 @@ h1{
     border-radius: 4px;
 }
 
-.col4{
+.col4 {
     background-image: url(/assets/img4.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -85,7 +87,7 @@ h1{
     border-radius: 4px;
 }
 
-.col6{
+.col6 {
     background-image: url(/assets/img6.jpeg);
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -94,22 +96,21 @@ h1{
     border-radius: 4px;
 }
 
-.hoverText:not(img){
+.hoverText:not(img) {
     background: black;
     opacity: 0;
     transition-duration: .5s;
     transition-timing-function: ease-in-out;
-    height: 300px;
+    height: 450px;
 }
 
-.hoverText:hover{
+.hoverText:hover {
     opacity: 1;
     font-size: 15px;
     word-wrap: break-word;
-    
 }
 
-
-.fab, .fas {
+.fab,
+.fas {
     color: black;
-  }
+}
